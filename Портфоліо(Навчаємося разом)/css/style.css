@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap');
+ html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0; 
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(51, 50, 61, 0.8);
+
+}
+.container{
+    width: 311px;
+    margin: 0 auto;
+}
+.box {
+    margin: 0 auto;
+    width: 375px;
+    display: flex; 
+    flex-direction: column; 
+    height: 100vh; 
+    /*justify-content: center;
+    align-items: center;*/
+}
+.header{
+    padding-top: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main{
+    flex-grow: 1;
+}
+.hi img{
+    width: 311px;
+    margin-bottom: 24px;
+}
+h1, h2{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    margin-bottom: 32px;
+}
+.hi a{
+    color: #fff;
+    text-decoration: none;
+    background: #203A4C;
+    width: 200px;
+    height: 48px;
+    display: inline-block;
+    padding-left: 48px;
+    padding-top: 17px;
+    position: relative;
+    margin-bottom: 96px;
+}
+.hi a::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    background-image: url(../images/arrow.png);
+    top: 18px;
+    left: 16px;
+}
+.hi a span{
+    width: 152px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.About img{
+    width: 311px;
+    box-shadow: 0px 4px 4px rgba(0, 0,0, 0.25);
+    margin-bottom: 64px;
+}
+h2{
+    margin-bottom: 28px;
+}
+.text{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+.About a, .contact a{
+    border: 1px solid #33323D;
+    color: #33323D;
+    text-decoration: none;
+    background: #fff;
+    width: 202px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 167px;
+}
+.contact{
+    text-align: center;
+}
+.contact a{
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.footer{
+    text-align: center;
+    height: 354px;
+    background: #33323D;
+    padding: 56px 135px;
+}
+.logofooter{
+    margin-bottom: 40px;
+}
+nav{
+    margin-bottom: 40px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons{
+    width: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
